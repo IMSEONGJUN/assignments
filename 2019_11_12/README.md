@@ -1,6 +1,6 @@
 #iOS assignment
 
-##function implementation
+>function implementation
 
 1.[ 과제 ]
 - 두 개의 자연수를 입력받아 두 수를 하나의 숫자로 이어서 합친 결과를 정수로 반환하는 함수 
