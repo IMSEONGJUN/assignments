@@ -35,38 +35,41 @@ dosome3(a: 10)
 //- 100 이하의 자연수 중 3과 5의 공배수를 모두 출력하는 함수
 func dosome3() {
     let num = 3
-    var val = 1
+    var offset3 = 1
     let num2 = 5
-    var val2 = 1
+    var offset5 = 1
     
-    var a = Set<Int>()
-    var b = Set<Int>()
+    var tempMultipleValue = 0 // 3과 5의 배수들이 임시로 들어갈 변수
+    
+    var a = Set<Int>() // 3의 배수 집합
+    var b = Set<Int>() // 5의 배수 집합
     
     while ( true ) {
-        var sum = 0
-        sum = val * num
-        val += 1
-        if sum > 100 {
+        
+        tempMultipleValue = num * offset3
+        offset3 += 1
+        if tempMultipleValue > 100 {
+            tempMultipleValue = 0
             break
         }
-        a.insert(sum)
+        a.insert(tempMultipleValue)
         
     }
     
     while ( true ) {
-      var sum = 0
-      sum = val2 * num2
-      val2 += 1
-      if sum > 100 {
+      
+      tempMultipleValue = num2 * offset5
+      offset5 += 1
+      if tempMultipleValue > 100 {
           break
       }
-      b.insert(sum)
+      b.insert(tempMultipleValue)
       
     }
     
     let c = a.intersection(b).sorted()
     for i in c {
-        print(i, terminator: " ")
+        print(i, terminator: "\n")
     }
     
 }
