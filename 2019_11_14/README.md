@@ -38,9 +38,7 @@ let five = ArithmeticExpression.number(5)
 let four = ArithmeticExpression.number(4)
 let sum = ArithmeticExpression.addition(five, four)
 let product = ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
-func evaluate(_ expression: ArithmeticExpression) -> Int {
-  // 코드
-}
+
 evaluate(five)    // 결과 : 5
 evaluate(sum)     // 결과 : 9
 evaluate(product) // 결과 : 18
