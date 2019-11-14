@@ -11,7 +11,7 @@ combineString1(str1: "AB", str2: nil, str3: "EF")    // "ABEF"
 
 
 2. 사칙연산(+, -, *, /)을 가진 enum 타입 Arithmetic과 2개의 자연수를 입력 파라미터로 받아 (파라미터 총 3개) 해당 연산의 결과를 반환하는 함수 구현
-```
+```swift
 enum Arithmetic {
   case addition, subtraction, multiplication, division
 }
@@ -28,7 +28,7 @@ __[ 도전 과제 ]__
 
 
 2. 다음 ArithmeticExpression 의 각 케이스별로 연산을 수행하고 그 값을 반환하는 evaluate 함수 구현
-```
+```swift
 enum ArithmeticExpression {
   case number(Int)
   case addition(ArithmeticExpression, ArithmeticExpression)
