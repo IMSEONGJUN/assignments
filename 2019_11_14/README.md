@@ -1,7 +1,7 @@
 
 # Assignment 2019.11.14
 
-## Enumerate, Optional
+## Enumerations, Optional
 
 [ 과제 ]
 1. 옵셔널 타입의 문자열 파라미터 3개를 입력받은 뒤, 옵셔널을 추출하여 Unwrapped 된 하나의 문자열로 합쳐서 반환하는 함수
