@@ -91,8 +91,26 @@ let four = ArithmeticExpression.number(4)
 let sum = ArithmeticExpression.addition(five, four)
 let product = ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
 
-
+// MARK: - 재귀호출로 구현
 func evaluate(_ expression: ArithmeticExpression) -> Int {
+ 
+    switch expression {
+    case .number(let x):
+        return x
+    case .addition(let x, let y):
+        return evaluate(x) + evaluate(y)
+    case .multiplication(let x, let y):
+        return evaluate(x) * evaluate(y)
+    }
+    
+}
+evaluate(five)    // 결과 : 5
+evaluate(sum)     // 결과 : 9
+evaluate(product) // 결과 : 18
+
+
+// MARK: - 단계적으로 파고들어가면서 구현. 코드가 약간 복잡해진다.
+func evaluate2(_ expression: ArithmeticExpression) -> Int {
     var sum = 0
     var num = 0
     
@@ -129,6 +147,6 @@ func evaluate(_ expression: ArithmeticExpression) -> Int {
     
     return Int(sum * num)
 }
-evaluate(five)    // 결과 : 5
-evaluate(sum)     // 결과 : 9
-evaluate(product) // 결과 : 18
+evaluate2(five)    // 결과 : 5
+evaluate2(sum)     // 결과 : 9
+evaluate2(product) // 결과 : 18
