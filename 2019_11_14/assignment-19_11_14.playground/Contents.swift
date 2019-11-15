@@ -13,6 +13,7 @@ func combineString(str1: String?, str2: String?, str3: String?) -> String {
     if let c = str3 {
         str += c
     }
+    
     return str
 }
 combineString(str1: "AB", str2: nil, str3: "EF")
