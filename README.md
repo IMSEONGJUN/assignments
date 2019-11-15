@@ -6,3 +6,6 @@
 2. 2019.11.13 : swift Collection Types [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_13)
 
 3. 2019.11.14 : swift Enumerations & Optional [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_14)
+
+4. 2019.11.15 : Closure [link to file and Details]
+(https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_15)
