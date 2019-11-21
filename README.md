@@ -9,3 +9,7 @@
 
 4. 2019.11.15 : Closure [link to file and Details]
 (https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_15)
+
+5. 2019.11.18 : Class [link to file and Details]
+(https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_18)
+
