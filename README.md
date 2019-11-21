@@ -11,4 +11,4 @@
 
 5. 2019.11.18 : Class [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_18)
 
-
+6. 2019.11.19 : Inheritance [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_19)
