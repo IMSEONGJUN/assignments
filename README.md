@@ -17,3 +17,5 @@
 
 8. 2019.11.22 : algorithm & UISwitch, UISegmentController [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_22)
 
+9. 2019.11.25 : ViewController - a switching ViewController to the other and sending data to the other ViewController [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_25)
+
