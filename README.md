@@ -19,3 +19,5 @@
 
 9. 2019.11.25 : ViewController - a switching ViewController to the other and sending data to the other ViewController [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_25)
 
+10. 2019.11.26 : UIAlertController UITextFields [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_11_26)
+
