@@ -8,11 +8,9 @@ import UIKit
 func dosome() -> [String] {
     let dict = ["철수":"apple", "영희":"banana", "진수":"grape", "미희":"strawberry"]
     var arrName = [String]()
-    for dicts in dict {
-        for i in dicts.value {
-            if i == "e" {
-                arrName.append(dicts.key)
-            }
+    for dic in dict {
+        if dic.value.contains("e") {
+            arrName.append(dic.key)
         }
     }
 
@@ -32,7 +30,7 @@ func dosome2(a: Int...) ->[Int] {
             newArr.append(i)
         }
     }
-    b = a.filter(){$0 % 2 == 0}
+    b = a.filter{$0 % 2 == 0}
     newArr += b
     return newArr
 }
@@ -132,7 +130,8 @@ uniqueStr()
 //- 별도로 전달한 식육목 모식도 라는 자료를 보고 Dictionary 자료형에 맞도록 중첩형태로 데이터를 저장하고
 //  + 해당 변수에서 표범 하위 분류를 찾아 사자와 호랑이를 출력하기
 
-var dic = ["식육목":
+var dic = [
+        "식육목":
                  ["개과":["개":["자칼", "늑대", "북미산 이리"],
                          "여우":["아메리카 여우", "유럽 여우"]],
                                                        
