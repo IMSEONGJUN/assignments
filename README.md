@@ -24,3 +24,5 @@
 11. 2019.12.03 : Segue [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_12_03)
 
 12. 2019.12.05 : Initializer and Type Casting [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_12_05)
+
+13. 2019.12.06 : Singleton and UserDefaults [link to file and Details](https://github.com/IMSEONGJUN/assignments/tree/master/2019_12_06)
